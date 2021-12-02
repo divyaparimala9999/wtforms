@@ -7,9 +7,9 @@ app.config['SECRET_KEY']='private_key'
 
 
 
-#@app.route('/')
-#def home():
-#    return "Wecome to WTForms"
+@app.route('/')
+def home():
+    return "Wecome to WTForms"
 
 #Create name page
 @app.route('/contact',methods=['GET','POST'])
